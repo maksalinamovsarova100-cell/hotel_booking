@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     )
 
     APP_NAME: str
+    APP_VERSION: str = "1.0.0"
 
     DEBUG: bool
 
@@ -19,6 +20,7 @@ class Settings(BaseSettings):
     DB_NAME: str
     DB_USER: str
     DB_PASSWORD: str
+    DATABASE_ECHO: bool = False
 
     SECRET_KEY: str
 

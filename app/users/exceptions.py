@@ -12,3 +12,6 @@ class UsernameAlreadyExists(UserException):
 
 class UserNotFound(UserException):
     pass
+
+class InvalidCredentials(UserException):
+    pass
